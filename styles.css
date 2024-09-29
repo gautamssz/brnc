@@ -1,0 +1,227 @@
+/* button:hover{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}
+div {
+    background-color: rgb(201, 26, 84);
+    color: rgb(105, 76, 174);
+}
+p {
+    display: none;
+}
+.a {
+    display: none;
+}
+.b:hover p {
+    display: block;
+    background-color: rgb(237, 165, 220);
+    color: rgb(254, 4, 4);
+}
+h4:hover .a {
+    display: block;
+    background-color: rgb(212, 157, 198);
+    color: rgb(254, 4, 4);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.bird-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+}
+
+.bird {
+    position: relative;
+    width: 100px;
+    height: 60px;
+}
+
+.body {
+    background-color: #FFD700; /* Gold color for the body */
+    border-radius: 50px;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 15px;
+}
+
+.wing-left {
+    background-color: #FFA500; /* Orange color for the left wing */
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    border-radius: 30px;
+    transform: rotate(-30deg);
+}
+
+.wing-right {
+    background-color: #FFA500; /* Orange color for the right wing */
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    border-radius: 30px;
+    transform: rotate(30deg);
+}
+
+.beak {
+    background-color: #FF4500; /* OrangeRed color for the beak */
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    top: 25px;
+    left: 80px;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    color: brown;
+}
+p{
+    color: blue;
+}
+div > h1{
+    color: rgb(41, 41, 85);
+}
+
+.face{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(167, 154, 137);
+    border-radius: 50%;
+    border: 5px solid red;
+}
+.eye{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(249, 248, 246);
+    border-radius: 50%;
+    border: 5px solid rgb(12, 12, 12);
+    display: inline-block;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+.lip{
+    height: 10px;
+    width: 60px;
+    background-color: rgb(229, 3, 3);
+    border-radius: 50%;
+    border: 2px solid rgb(12, 12, 12);
+    display: inline-block;
+    margin-top: 25%;
+    margin-left: 30%;
+}
+.face{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(240, 207, 222);
+    border-radius: 50%;
+    border: 5px solid rgb(111, 2, 2);
+}
+.eye{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(249, 248, 246);
+    border-radius: 50%;
+    border: 5px solid rgb(12, 12, 12);
+    display: inline-block;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+.lip{
+    height: 10px;
+    width: 60px;
+    background-color: rgb(229, 3, 3);
+    border-radius: 50%;
+    border: 2px solid rgb(12, 12, 12);
+    display: inline-block;
+    margin-top: 25%;
+    margin-left: 30%;
+}
+.demie{
+    height: 8px;
+    width: 10px;
+    background-color: rgb(8, 5, 8);
+    border-radius: 50%;
+    border: 2px solid rgb(12, 12, 12);
+    display: inline-block;
+    margin-top: 25%;
+    margin-left: 30%; 
+}
+.demie{
+    height: 8px;
+    width: 10px;
+    background-color: rgb(8, 5, 8);
+    border-radius: 50%;
+    border: 2px solid rgb(12, 12, 12);
+    display: inline-block;
+    margin-top: 25%;
+    margin-left: 8%; 
+    margin: px;
+} */
